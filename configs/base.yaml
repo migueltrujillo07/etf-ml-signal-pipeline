@@ -1,5 +1,13 @@
-project:
-  name: etf-ml-signal-pipeline
-  version: 0.1.0
-  description: Production-ready ML pipeline for ETF signal forecasting
+data:
+  provider: 'yfinance'
+  tickers: ["SPY", "QQQ", "IWM"]
+  start_date: "2015-01-01"
+  end_date: "2025-12-27"
+  intervals: "1d"
+  auto_ajust: True
+  save_format: "parquet"
 
+paths:
+  raw_dir:"data/raw"
+  interin: "data/interim"
+  metrics:dir: "reports/metrics"
