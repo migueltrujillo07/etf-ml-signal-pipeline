@@ -5,12 +5,16 @@ This project implements a **production-ready machine learning pipeline** for for
 
 Rather than predicting exact prices, the system focuses on **probabilistic classification** (up/down movement), following industry best practices for time-series modeling, evaluation, and deployment.
 
+The pipeline is structured to mirror real-world ML systems, with clear separation between data ingestion, feature engineering, model training, evaluation, and inference.
+
 The project is designed to demonstrate:
 - Proper handling of time-series data
 - Leakage-free feature engineering
 - Walk-forward validation
 - Reproducible ML pipelines
 - Decision-oriented evaluation beyond raw model accuracy
+
+This project is intended as a portfolio-quality example for Machine Learning Engineer and Applied Data Science roles.
 
 ---
 
@@ -24,6 +28,7 @@ The goal of this project is to answer the following question:
 
 > Can historical market data be used to generate **robust and reproducible predictive signals** when evaluated under realistic, production-like conditions?
 
+The emphasis is on methodology, evaluation, and system design rather than short-term profitability claims.
 ---
 
 ## Project Scope
