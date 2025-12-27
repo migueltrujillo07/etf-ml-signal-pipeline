@@ -1,0 +1,5 @@
+project:
+  name: etf-ml-signal-pipeline
+  version: 0.1.0
+  description: Production-ready ML pipeline for ETF signal forecasting
+
